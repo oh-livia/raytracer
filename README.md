@@ -2,10 +2,8 @@ README for raytracer
 Olivia Winn
 
     This is a raytracer that can render spheres, triangles, and planes, with blinn-phong shading, shadows, reflection, and soft lighting. It uses Monte Carlo bounding boxes as well, and those can be shown using command-line options. The object files follow a particular format - each line starts with a certain letter noting what kind of object the rest of the line is describing, and those objects are then described accordingly. There can also be special object mesh files, which describe a set of triangles with shared vertices that the object file can include, along with other objects to render.
-
-The format of the object files can be garnered from the example txt files given - each line has a letter at the beginning denoting what the object is that is about to be described - m for material, s for sphere, w for wavefile, etc. Some examples:
-s 0.5 0.6 0.7 8 : A sphere centered at (0.5, 0.6, 0.7) with radius 8
-w paraboloid.obj : A triangle mesh file called parabolod.obj should be included in the scene
+    
+    The format of the object files can be garnered from the example txt files given - each line has a letter at the beginning denoting what the object is that is about to be described - m for material, s for sphere, w for wavefile, etc. Some examples: s 0.5 0.6 0.7 8 : A sphere centered at (0.5, 0.6, 0.7) with radius 8 w paraboloid.obj : A triangle mesh file called parabolod.obj should be included in the scene
 
 
 Triangle mesh files:
