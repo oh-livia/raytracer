@@ -77,7 +77,7 @@ main.cc
     Instantiates all the objects, reads the object file, and starts up the camera
 
 readscene.cc
-    The method that parses the object file and saves the necessary information in the appropriate places
+    The method that parses the object file and saves the necessary information in the appropriate places - given by the professor
 
 test0.txt - test4.txt
     Examples object files that can be rendered
